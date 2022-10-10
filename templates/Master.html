@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head  en="en">
+
+    <link href="{{ url_for('static', filename='Site.css') }}" rel="stylesheet"  />
+   
+    <title>{% block title %}{% endblock %}</title>
+    <script  src="{{ url_for('static', filename='Site.js') }}"  ></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,Initial-Scale=1" />
+
+    <meta property="og:type" id="ogtype"  content="website" />
+
+</head>
+<body>
+        <div class="wrap">
+                {% block content %}
+                {% endblock %}
+            </div>
+            <script  src="{{ url_for('static', filename='jquery-1.10.2.js') }}"  ></script>
+            <script  src="{{ url_for('static', filename='jquery-1.10.2.min.js') }}"  ></script>
+            
+</body>
