@@ -1,0 +1,120 @@
+
+.wrap{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Auth-Container{
+    width:420px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.6em;
+
+
+}
+.email{
+    border:none;
+}
+.Auth-Container-header-col2{
+    vertical-align: middle;
+    display: block;
+}
+.File-Link a{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color:white;
+    padding: 0.4em;
+    border-radius: 25px;
+    display: block;
+    box-shadow: 0 0 4px black;
+    text-align: center;
+}
+.File-Container h2{
+text-align: center;
+background-color: black;
+color:white;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding:0.3em;
+
+}
+.Auth-Container-header-col1 h1
+{background-color: black;
+    box-shadow: 4px 0 5px black;
+     color:white;padding: 0.3em;
+     margin: 0px;
+     border-bottom-left-radius: 14px; border-top-left-radius: 14px;}
+.Auth-Container input{
+
+    width: 100%;
+    border-radius: 15px;
+    height:40px;
+    font-size:18px;
+}.Auth-Container label{
+    font-size:18px;
+}
+
+.Auth-Container input[type=password],.Auth-Container input[type=submit],.Auth-Container input [type=text],.Auth-Container input[type=email]{
+    border:none;
+box-shadow: 0 0 4px black;
+padding:0.2em;
+padding-left: 0.6em;
+padding-right: 0.6em;
+}
+.Auth-Container input[type=password]:focus,.Auth-Container input[type=submit]:focus,.Auth-Container input[type=text]:focus,.Auth-Container input[type=email]:focus{
+    box-shadow: 0 0 4px skyblue;
+    border:none !important;
+}
+.Auth-Container input[type=submit]{
+    box-shadow: 0 1px 2px black;
+    background-color: black;
+    color:white;
+}
+.Auth-Container input[type=submit]:focus{
+
+    transform: scale(1.02);
+    transform-origin: 50% 50%;
+}
+.Auth-Container table{
+    table-layout: fixed;
+    width:100%;
+
+    border-collapse: collapse;
+}
+*{
+    box-sizing: border-box;  
+}
+.Auth-Container-header{
+ table-layout: initial !important;
+}
+.Auth-Container td{
+    
+    padding:0.4em;
+}
+
+.Logo-Container{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Logo-Container label{
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: underline;
+}
+.Error{color:red;}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+@media (max-width:320px)
+{
+
+
+}
