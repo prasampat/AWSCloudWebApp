@@ -1,0 +1,14 @@
+{
+    "SQL_HOST":"database-2.c93lynnwkvoj.us-east-1.rds.amazonaws.com",
+    "SQL_USER":"admin",
+    "SQL_PASSWORD":"12345678!",
+    "SQL_DB":"databse_2",
+    "SECRET_KEY":"5aa5d3140cd5f2c037f4c80fe444b6883d50457ab20f10ca319a90318940cee6dfee2c4bcf1105b81c5fb11425a413611354f69097378174b08254547b439207",
+    "UPLOAD_FOLDER":"ccfinal",
+    "AWS_ACCESS_KEY_ID":"AKIAWVCAVKLNP56PZVAC",
+    "AWS_SECRET_ACCESS_KEY":"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",
+    "REGION_NAME":"us-east-1",
+    "AUTHOR_EMAIL":"prasampatel26@gmail.com",
+    "BUCKET_NAME":"buck9926",
+    "BUCKET_EMAIL":"buckemail"
+}
